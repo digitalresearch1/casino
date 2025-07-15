@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlotsParadise - Your Ultimate Gaming Getaway</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .font-lobster {
+            font-family: 'Lobster', cursive;
+        }
+        .hero-bg-paradise {
+            background-color: #06b6d4; /* cyan-500 */
+            background-image: 
+                linear-gradient(to top, rgba(6, 182, 212, 0.8), rgba(2, 132, 199, 0.8)),
+                url('https://placehold.co/1500x900/06b6d4/ffffff?text=Welcome+to+Paradise');
+            background-size: cover;
+            background-position: center;
+        }
+        .cta-button-paradise {
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 0px #f59e0b, 0 6px 20px rgba(252, 211, 77, 0.5);
+            border: 2px solid #1f2937;
+        }
+        .cta-button-paradise:hover {
+            transform: translateY(2px);
+            box-shadow: 0 3px 0px #f59e0b, 0 4px 15px rgba(252, 211, 77, 0.6);
+        }
+        .cta-button-paradise:active {
+            transform: translateY(4px);
+            box-shadow: 0 1px 0px #f59e0b;
+        }
+        .glow-text-yellow {
+            text-shadow: 0 0 15px rgba(252, 211, 77, 1);
+        }
+    </style>
+</head>
+<body class="bg-cyan-50 text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="hero-bg-paradise text-white">
+        <div class="container mx-auto px-6 py-24 text-center">
+            <h1 class="text-6xl md:text-8xl font-lobster">
+                Slots Paradise
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl font-semibold">
+                Your Tropical Gaming Getaway!
+            </p>
+            <div class="mt-10 bg-black bg-opacity-20 backdrop-blur-sm rounded-xl p-8 max-w-2xl mx-auto border-2 border-amber-300">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-amber-300 glow-text-yellow">250% BONUS UP TO $2,500</h2>
+                <p class="mt-4 text-2xl font-semibold">+ 150 FREE SPINS on Tropical Treasures</p>
+            </div>
+            <a href="#claim" class="cta-button-paradise mt-12 inline-block bg-amber-400 text-gray-900 font-bold text-xl py-4 px-12 rounded-lg uppercase tracking-wider">
+                Find Your Paradise
+            </a>
+            <p class="mt-4 text-sm text-gray-200">New US Players Only | 21+ T&Cs Apply</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-16">
+
+        <!-- Why Play With Us Section -->
+        <section class="text-center">
+            <h2 class="text-4xl font-extrabold mb-12 text-cyan-700">Your Oasis of Fun Awaits</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1: Huge Slot Selection -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="text-cyan-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" viewBox="0 0 24 24" fill="currentColor"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">The Hottest Slots</h3>
+                    <p class="text-gray-600">Dive into an ocean of the latest and greatest video and jackpot slots.</p>
+                </div>
+                <!-- Feature 2: Daily Bonuses -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="text-cyan-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" viewBox="0 0 24 24" fill="currentColor"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Daily Happy Hour</h3>
+                    <p class="text-gray-600">Enjoy daily free spins, reload bonuses, and other tropical treats.</p>
+                </div>
+                <!-- Feature 3: Fast Payouts -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="text-cyan-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" viewBox="0 0 24 24" fill="currentColor"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Lightning-Fast Payouts</h3>
+                    <p class="text-gray-600">Get your winnings faster than a summer breeze with our secure payouts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Claim Section -->
+        <section id="claim" class="mt-24 bg-white rounded-lg p-8 md:p-12 shadow-lg border-t-4 border-amber-400">
+            <h2 class="text-4xl font-extrabold text-center mb-10 text-cyan-700">Get Shipwrecked on Wins in 3 Steps</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="border-2 border-cyan-500 text-cyan-500 rounded-full h-20 w-20 flex items-center justify-center text-3xl font-bold mb-4">1</div>
+                    <h3 class="text-xl font-bold">Join the Crew</h3>
+                    <p class="text-gray-600 mt-2">Sign up for a free account. It's quick and easy!</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="border-2 border-cyan-500 text-cyan-500 rounded-full h-20 w-20 flex items-center justify-center text-3xl font-bold mb-4">2</div>
+                    <h3 class="text-xl font-bold">Make a Splash</h3>
+                    <p class="text-gray-600 mt-2">Make your first deposit to unlock your huge bonus.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="border-2 border-cyan-500 text-cyan-500 rounded-full h-20 w-20 flex items-center justify-center text-3xl font-bold mb-4">3</div>
+                    <h3 class="text-xl font-bold">Play in Paradise!</h3>
+                    <p class="text-gray-600 mt-2">Enjoy your bonus cash and free spins instantly!</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-sky-800 text-white mt-20 py-10">
+        <div class="container mx-auto px-6 text-center text-sky-100 text-sm">
+            <div class="mb-8">
+                 <a href="#claim" class="cta-button-paradise mt-6 inline-block bg-amber-400 text-gray-900 font-bold text-lg py-3 px-10 rounded-lg uppercase tracking-wider">
+                    Claim Your $2,500 Bonus
+                </a>
+            </div>
+            <p class="font-bold text-lg mb-2">Gambling Problem? Call 1-800-GAMBLER</p>
+            <p>You must be 21 years or older and located in an eligible state to play. Please play responsibly.</p>
+            <div class="mt-4">
+                <a href="#" class="underline mx-2">Terms & Conditions</a>
+                <a href="#" class="underline mx-2">Privacy Policy</a>
+            </div>
+            <p class="mt-4">&copy; 2024 SlotsParadise. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
